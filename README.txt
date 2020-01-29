@@ -1,3 +1,38 @@
+ENGLISH
+
+Install
+-------
+
+1- Untar and copy directory "iprec" in "/var/www/html/"
+
+2- Set appropriate permissions to Folder "/var/www/html/iprec/" and "/var/www/html/iprec/wav"
+
+Configuration
+-------------
+
+1- Put credentials user and password MySQL or MariaDB in /var/www/html/iprec/config.php
+
+2- If you do not want to use login credentials (user and password) in config.php set $_useCredentials in "false" otherwise set in "true".
+
+3- If you use access credentials ($_useCredentials in "true"),  user  and password are the same as those used in FreePBX.
+
+4- DataBase asteriskcdrdb, in file config.php, configure user, host and password  MySQL.
+
+5- If the version of FreePbx is old, on file config.php, set variable "$_freePbxOld" to "1" otherwise set in "0".
+
+6- Open web browser and write "IP_YOU_PBX/iprec"
+
+If desired, the paid version has the following characteristics:
+
+- The audio player does not use flash so warning messages are avoided.
+- The player occupies HTML5 with advanced audio spectrum.
+- Own database to create users with privileges and restrict access to audios.
+- Statistics, graphics and Real Time, in the IPcenter and Callcapture version
+- Convert wav to MP3
+- You can delete the Wav file and be left alone with MP3 and thus do not use much disk space.
+
+Doubts? write to soporte@ipnet.cl - www.ipnet.cl/ipcenter
+
 SPANISH
 
 Instalación
@@ -34,32 +69,3 @@ Si lo desea la versión de pago tiene las siguientes caracteristicas:
 
 
 ¿Dudas? escriba a soporte@ipnet.cl - www.ipnet.cl/ipcenter
-
-
-
-ENGLISH
-
-Install
--------
-
-1- Untar and copy directory "iprec" in "/var/www/html/"
-
-2- Set appropriate permissions to Folder "/var/www/html/iprec/" and "/var/www/html/iprec/wav"
-
-Configurat
--------------
-
-1- Put credentials user and password MySQL or MariaDB in /var/www/html/iprec/config.php
-
-2- If you do not want to use login credentials (user and password) in config.php set $_useCredentials in "false" otherwise set in "true".
-
-3- If you use access credentials ($_useCredentials in "true"),  user  and password are the same as those used in FreePBX.
-
-4- DataBase asteriskcdrdb, in file config.php, configure user, host and password  MySQL.
-
-5- If the version of FreePbx is old, on file config.php, set variable "$_freePbxOld" to "1" otherwise set in "0".
-
-6- Open web browser and write "IP_YOU_PBX/iprec"
-
-Doubts? write to soporte@ipnet.cl
-
