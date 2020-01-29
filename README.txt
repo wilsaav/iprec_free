@@ -1,5 +1,12 @@
 ENGLISH
 
+Description
+-----------
+
+Allows you to order audios and recordings of your Asterisk, FreePBX, Issabel, Elastix Information
+how ANI / CallID, date, audio, etc. In this way you can easily manage all recordings
+in its PBX. Compatible with Elastix, Issabel, Trixbox, etc.
+
 Install
 -------
 
@@ -35,7 +42,14 @@ Doubts? write to soporte@ipnet.cl - www.ipnet.cl/ipcenter
 
 SPANISH
 
-Instalación
+DescripciÃ³n
+-----------
+
+Permite ordenar audios y grabaciones de su central Asterisk, FreePBX, Issabel, Elastix InformaciÃ³n 
+como ANI/CallID, fecha, audio, etc, de esta forma podrÃ¡ gestionar facilmente todas las grabaciones 
+en su central. Compatible con Elastix, Issabel, Trixbox, etc.
+
+InstalaciÃ³n
 -----------
 
 1- Descomprima y copie carpeta "iprec" en "/var/www/html/"
@@ -47,25 +61,25 @@ mv iprec /var/www/html
 chmod -R 757 /var/www/html/iprec/
 chown asterisk /var/www/html/iprec/*
 
-Configuración
+ConfiguraciÃ³n
 -------------
 
 1- Coloque las credenciales de usuario y password de MySQL o MariaDB en /var/www/html/iprec/config.php
 
 2- Base de datos, en archivo config.php, configure usuario, host y clave de MySQL.
 
-3- Si la versión de FreePbx es antigua, en archivo config.php, setee la variable "$_freePbxOld" en "1" de lo contrario setee en "0".
+3- Si la versiÃ³n de FreePbx es antigua, en archivo config.php, setee la variable "$_freePbxOld" en "1" de lo contrario setee en "0".
 
 4- Abra google chrome o similar y escriba  "IP_DE_TU_PBX/iprec"
 
-Si lo desea la versión de pago tiene las siguientes caracteristicas:
+Si lo desea la versiÃ³n de pago tiene las siguientes caracteristicas:
 
-- El reproductor de audio no utiliza  flash así se evita los mensajes de advertencia.
+- El reproductor de audio no utiliza  flash asÃ­ se evita los mensajes de advertencia.
 - El reproductor ocupa HTML5 con  espectro de audio avanzado.  
 - Base de datos propia para crear usuarios con privilegios y restringir acceso a audios.
-- Estadisticas, gráficos y Real Time, en la versión IPcenter y Callcapture
+- Estadisticas, grÃ¡ficos y Real Time, en la versiÃ³n IPcenter y Callcapture
 - Convierte wav a MP3 
-- Puede borrar el archivo Wav y quedar solo con MP3 y así no utiliza mucho espacio en el disco.
+- Puede borrar el archivo Wav y quedar solo con MP3 y asÃ­ no utiliza mucho espacio en el disco.
 
 
-¿Dudas? escriba a soporte@ipnet.cl - www.ipnet.cl/ipcenter
+Â¿Dudas? escriba a soporte@ipnet.cl - www.ipnet.cl/ipcenter
