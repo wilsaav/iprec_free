@@ -11,8 +11,13 @@ Install
 -------
 
 1- Untar and copy directory "iprec" in "/var/www/html/"
+cd /usr/src
+tar zxvf iprec_free.tgz
+mv iprec /var/www/html
 
 2- Set appropriate permissions to Folder "/var/www/html/iprec/" and "/var/www/html/iprec/wav"
+chmod -R 757 /var/www/html/iprec/
+chown asterisk /var/www/html/iprec/*
 
 Configuration
 -------------
