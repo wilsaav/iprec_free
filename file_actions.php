@@ -16,14 +16,14 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-if(isset($_GET['copia'])){
-$cp=$_GET['copia'];
+if(isset($_GET["copia"])){
+$cp=$_GET["copia"];
 exec($cp);
 echo $cp;
 }
 
-if(isset($_GET['del'])){
-$fileDel=$_GET['del'];
+if(isset($_GET["del"])){
+$fileDel=$_GET["del"];
 $del="rm /$fileDel";
 exec($del);
 echo $del;
