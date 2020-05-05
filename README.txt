@@ -3,7 +3,7 @@ ENGLISH
 Description
 -----------
 
-Allows you to order audios and recordings of your Asterisk, FreePBX, Issabel, Elastix Information
+Allows you to order audios and recordings from CDR of your Asterisk, FreePBX, Issabel, Elastix Information
 how ANI / CallID, date, audio, etc. In this way you can easily manage all recordings
 in its PBX. Compatible with Elastix, Issabel, Trixbox, etc.
 
@@ -50,7 +50,7 @@ SPANISH
 Descripción
 -----------
 
-Permite ordenar audios y grabaciones de su central Asterisk, FreePBX, Issabel, Elastix Información 
+Permite ordenar audios y grabaciones desde el CDR de su central Asterisk, FreePBX, Issabel, Elastix Información 
 como ANI/CallID, fecha, audio, etc, de esta forma podrá gestionar facilmente todas las grabaciones 
 en su central. Compatible con Elastix, Issabel, Trixbox, etc.
 
