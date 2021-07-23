@@ -38,6 +38,7 @@ $totPAg=$conf->getTotPAg();
 $freePbxOld=$conf->getFreePbxOld();
 $con=$conDb->connect(); 
 $pagina=1;
+date_default_timezone_set('America/Santiago');
 $year= date("Y");$mes=date("m");$dia=date("d");
 $dateStart="$year/$mes/$dia 00:00:00";
 $dateEnd="$year/$mes/$dia 23:59:59";
